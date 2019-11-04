@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1.install ruby 2.5.1: rvm install 2.5.1
+2.install rails 5.2.3: gem install rails -v 5.2.3
+3.go to the directory and run:  rake db:create db:migrate
+4.run: yarn install --check-files
+5.start server with: rails s -p 3333
